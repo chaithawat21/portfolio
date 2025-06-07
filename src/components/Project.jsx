@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import { InstagramEmbed } from "react-social-media-embed";
+import { InstagramEmbed, FacebookEmbed } from "react-social-media-embed";
 
 function Project() {
   return (
@@ -10,9 +10,11 @@ function Project() {
     >
       <h1 className="text-white text-[2rem] font-[300] mt-[5rem]">2025</h1>
 
-      <div className="grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[repeat(3,_1fr)] md:grid-rows-[repeat(3,_1fr)] sm:grid-rows-[repeat(3,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]">
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] gap-x-[1rem] gap-y-4 px-0">
         <div>
-          <h2 className="text-white sm:pl-[1rem]">POND'S UV Miracle 2025</h2>
+          <h2 className="text-white sm:pl-[1rem]">
+            POND'S UV Miracle Sunscreen SPF+ PA++++
+          </h2>
           <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative ">
             <ReactPlayer
               url="https://www.youtube.com/watch?v=OzHEV5V2-R0"
@@ -46,7 +48,7 @@ function Project() {
           </div>
         </div>
         <div>
-          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative mt-[1.5rem] ">
+          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative mt-[1.5rem]  ">
             <ReactPlayer
               url="https://www.youtube.com/watch?v=n30vwFgGQ9g"
               width="100%"
@@ -56,19 +58,39 @@ function Project() {
             />
           </div>
         </div>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] gap-x-[1rem] gap-y-4 px-0">
         <div>
-          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative mt-[1.5rem] sm:mb-[30rem] ">
+          <h2 className="text-white sm:pl-[1rem]">POND'S Ultra Light Biome</h2>
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  ">
             <InstagramEmbed url="https://www.instagram.com/reel/DE1XA7Av4l4/" />
           </div>
         </div>
         <div>
-          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative mt-[1.5rem] ">
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] mt-[1.5rem] ">
             <InstagramEmbed url="https://www.instagram.com/reel/DE9oa9nTKr6/" />
+          </div>
+        </div>
+        <div>
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] mt-[1.5rem] ">
+            <InstagramEmbed url="https://www.instagram.com/reel/DFErooLTnhn/" />
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(1,_1fr)] gap-x-[1rem] gap-y-4 px-0">
+        <div>
+          <h2 className="text-white sm:pl-[1rem]">
+            POND'S Unbox Sunscreen Review
+          </h2>
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]   ">
+            <FacebookEmbed url="https://www.facebook.com/reel/733914595728245" />
           </div>
         </div>
       </div>
 
-      <h1 className="text-white text-[2rem] font-[300] mt-[40rem] sm:mt-[35rem]">2024</h1>
+      <h1 className="text-white text-[2rem] font-[300] mt-[5rem] sm:mt-[5rem]">
+        2024
+      </h1>
 
       <div className="grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[repeat(2,_1fr)] md:grid-rows-[repeat(3,_1fr)] sm:grid-rows-[repeat(3,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]">
         <div>
@@ -104,9 +126,7 @@ function Project() {
           <img src="/isuzu2024c01.png" alt="c01" />
         </div>
         <div className="grid grid-cols-[repeat(1,_1fr)] grid-rows-[repeat(1,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] lg:w-[375px] sm:w-[375px] lg:h-[210px] sm:h-[210px] mt-[1.5rem]">
-
           <img src="/isuzu2024website.png" alt="website" />
-
         </div>
       </div>
       <h1 className="text-white text-[2rem] font-[300] mt-[5rem]">2023</h1>
@@ -256,7 +276,9 @@ function Project() {
           </div>
         </div>
         <div>
-          <h2 className="text-white sm:pl-[1rem]">Invitation to a Murder 2023</h2>
+          <h2 className="text-white sm:pl-[1rem]">
+            Invitation to a Murder 2023
+          </h2>
           <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
             <ReactPlayer
               url="https://youtu.be/B_HOii1vVg8"
@@ -268,7 +290,9 @@ function Project() {
           </div>
         </div>
         <div>
-          <h2 className="text-white sm:pl-[1rem]">Work Later, Drink Now 2 EP2</h2>
+          <h2 className="text-white sm:pl-[1rem]">
+            Work Later, Drink Now 2 EP2
+          </h2>
           <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
             <ReactPlayer
               url="https://youtu.be/xu_7z8ix-PY"
@@ -429,9 +453,7 @@ function Project() {
           </div>
         </div>
         <div>
-          <h2 className="text-white sm:pl-[1rem]">
-            Bashira 2021
-          </h2>
+          <h2 className="text-white sm:pl-[1rem]">Bashira 2021</h2>
           <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
             <ReactPlayer
               url="https://youtu.be/8VMKdIFknD8"
@@ -446,6 +468,5 @@ function Project() {
     </section>
   );
 }
-
 
 export default Project;
