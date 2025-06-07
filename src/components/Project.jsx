@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import { InstagramEmbed, FacebookEmbed } from "react-social-media-embed";
+import { InstagramEmbed, FacebookEmbed, TikTokEmbed } from "react-social-media-embed";
 
 function Project() {
   return (
@@ -63,17 +63,17 @@ function Project() {
         <div>
           <h2 className="text-white sm:pl-[1rem]">POND'S Ultra Light Biome</h2>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
-            <InstagramEmbed url="https://www.instagram.com/reel/DE1XA7Av4l4/" />
+            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487942859442670856" />
           </div>
         </div>
         <div>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
-            <InstagramEmbed url="https://www.instagram.com/reel/DE9oa9nTKr6/" />
+            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487464013249416455" />
           </div>
         </div>
         <div>
           <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
-            <InstagramEmbed url="https://www.instagram.com/reel/DFErooLTnhn/" />
+            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487201181068987666" />
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ function Project() {
             POND'S Unbox Sunscreen Review
           </h2>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
-            <FacebookEmbed url="https://www.facebook.com/reel/733914595728245" />
+            <TikTokEmbed url="https://www.tiktok.com/@pondsph/video/7512287042923941128" />
           </div>
         </div>
       </div>
