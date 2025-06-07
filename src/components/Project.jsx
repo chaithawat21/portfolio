@@ -72,7 +72,7 @@ function Project() {
           </div>
         </div>
         <div>
-          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
             <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487201181068987666" />
           </div>
         </div>
