@@ -6,11 +6,11 @@ function Project() {
   return (
     <section
       id="Projects"
-      className="Projects flex flex-col justify-center items-center gap-4 px-[1rem] bg-black"
+      className="Projects flex flex-col justify-center items-center gap-4 px-[1rem] bg-black sm:px-0"
     >
       <h1 className="text-white text-[2rem] font-[300] mt-[5rem]">2025</h1>
 
-      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] gap-x-[1rem] gap-y-4 px-0">
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] md:grid-rows-[repeat(2,_1fr)] sm:grid-rows-[repeat(4,_1fr)] gap-x-[1rem] gap-y-[0rem] px-0">
         <div>
           <h2 className="text-white sm:pl-[1rem]">
             POND'S UV Miracle Sunscreen SPF+ PA++++
@@ -59,30 +59,30 @@ function Project() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] gap-x-[1rem] gap-y-4 px-0">
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(2,_1fr)] md:grid-rows-[repeat(2,_1fr)] sm:grid-rows-[repeat(3,_1fr)] gap-x-[1rem] gap-y-0 px-0">
         <div>
           <h2 className="text-white sm:pl-[1rem]">POND'S Ultra Light Biome</h2>
-          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  ">
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
             <InstagramEmbed url="https://www.instagram.com/reel/DE1XA7Av4l4/" />
           </div>
         </div>
         <div>
-          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] mt-[1.5rem] ">
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
             <InstagramEmbed url="https://www.instagram.com/reel/DE9oa9nTKr6/" />
           </div>
         </div>
         <div>
-          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] mt-[1.5rem] ">
+          <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
             <InstagramEmbed url="https://www.instagram.com/reel/DFErooLTnhn/" />
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(1,_1fr)] gap-x-[1rem] gap-y-4 px-0">
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-rows-[repeat(1,_1fr)] gap-x-[1rem] gap-y-0 px-0">
         <div>
           <h2 className="text-white sm:pl-[1rem]">
             POND'S Unbox Sunscreen Review
           </h2>
-          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]   ">
+          <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
             <FacebookEmbed url="https://www.facebook.com/reel/733914595728245" />
           </div>
         </div>
