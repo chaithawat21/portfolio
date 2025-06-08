@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import { InstagramEmbed, FacebookEmbed, TikTokEmbed } from "react-social-media-embed";
+import { TikTokEmbed } from "react-social-media-embed";
+import LazyTikTok from "./LazyTiktok";
 
 function Project() {
   return (
@@ -63,17 +64,17 @@ function Project() {
         <div>
           <h2 className="text-white sm:pl-[1rem]">POND'S Ultra Light Biome</h2>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
-            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487942859442670856" />
+            <LazyTikTok url="https://www.tiktok.com/@pondsthailand/video/7487942859442670856" />
           </div>
         </div>
         <div>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
-            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487464013249416455" />
+            <LazyTikTok url="https://www.tiktok.com/@pondsthailand/video/7487464013249416455" />
           </div>
         </div>
         <div>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative mt-[1.5rem] ">
-            <TikTokEmbed url="https://www.tiktok.com/@pondsthailand/video/7487201181068987666" />
+            <LazyTikTok url="https://www.tiktok.com/@pondsthailand/video/7487201181068987666" />
           </div>
         </div>
       </div>
@@ -83,7 +84,7 @@ function Project() {
             POND'S Unbox Sunscreen Review
           </h2>
           <div className="w-[560px] min-h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px]  relative  ">
-            <TikTokEmbed url="https://www.tiktok.com/@pondsph/video/7512287042923941128" />
+            <LazyTikTok url="https://www.tiktok.com/@pondsph/video/7512287042923941128" />
           </div>
         </div>
       </div>
